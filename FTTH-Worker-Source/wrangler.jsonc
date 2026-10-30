@@ -1,0 +1,27 @@
+{
+	"name": "withered-sun-b4b8",
+	"main": "src/worker-dev.js",
+	"workers_dev": true,
+	"preview_urls": true,
+	"compatibility_date": "2026-09-19",
+	"browser": {
+		"binding": "BROWSER"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "959475f6-2728-4aff-bf86-f69f2f74f8ae"
+		},
+		{
+			"binding": "ali_abu_ali",
+			"database_name": "karrar-ftth-dashboard",
+			"database_id": "b992318f-3c06-4fec-b058-6e95b95c9a46",
+			"remote": true
+		}
+	],
+	"vars": {
+		"GEMINI_MODEL": "gemini-3.5-flash-lite",
+		"GROQ_MODEL": "qwen/qwen3.8-27b",
+		"GROQ_VISION_MODEL": "qwen/qwen3.8-27b"
+	}
+}
